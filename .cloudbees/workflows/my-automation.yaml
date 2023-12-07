@@ -1,12 +1,10 @@
 apiVersion: automation.cloudbees.io/v1alpha1
 kind: workflow
-name: My automation
-
+name: ikurtz-sample-go-ci-job
 on:
   push:
     branches:
-      - '**'
-
+      - "**"
 jobs:
   ci-job:
     steps:
