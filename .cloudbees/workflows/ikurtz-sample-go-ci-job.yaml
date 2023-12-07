@@ -33,4 +33,4 @@ jobs:
       - name: Push image to registry
         uses: cloudbees-io/kaniko@v1
         with:
-          destination: ${{ vars.QUICKSTART_DOCKER_USERNAME }}/ikurtz-sample-go-app:1.0.0
+          destination: ${{ vars.QUICKSTART_DOCKER_USERNAME }}/ikurtz-sample-go-app:2.0.0
